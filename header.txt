@@ -1,0 +1,20 @@
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+<link rel="Stylesheet" type="text/css" href="css/yarxi.css?v=1" />
+<title>ЯРКСИ-Онлайн</title>
+<script language="Javascript" type="text/javascript" src="js/jquery-1.5.2.min.js"></script>
+<!--script language="Javascript" type="text/javascript" src="dev_local.jsi"></script-->
+<script language="Javascript" type="text/javascript" src="js/yarxi.js?v=2"></script>
+<script language="Javascript" type="text/javascript" src="js/collapse.js?v=1"></script>
+<style type="text/css">
+#menu p
+{
+    margin:0px 0px 2px 2px;    padding:0;
+    display:block;
+    overflow:hidden;
+    width:295px;
+}
+</style>
+</head>
