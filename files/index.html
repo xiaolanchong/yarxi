@@ -1,82 +1,169 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
-<html>
 <head>
 <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
 <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
-<title>Яркси кандзи</title>
+<style>
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 5px 5px;
+}
+
+.wordnum {
+    font-size: small;
+    margin-left: 5px;
+}
+</style>
+<title>ЯРКСИ кандзи и слова</title>
 </head>
 <body>
-<h1>Список кандзи из словаря Яркси</h1>
-<div>Исходные данные взяты из словаря Яркси(<a href="http://yarxi.ru">yarxi.ru</a>) по состоянию на февраль 2017 года без какой-либо обработки, все замечания к толкованиям - составителям.</div>
+<h1>Список кандзи из словаря ЯРКСИ</h1>
+<div>Исходные данные взяты из словаря ЯРКСИ(<a href="http://yarxi.ru">yarxi.ru</a>) по состоянию на февраль 2017 года без какой-либо обработки, все замечания к толкованиям — составителям.</div>
 <h2>Часто используемые кандзи в порядка он-чтений</h2>
 <ul>
-    <li><a href="kanjidb0001_0099.html">1-99 (A-IN)</a></li>
-    <li><a href="kanjidb0100_0199.html">100-199 (IN-O)</a></li>
-    <li><a href="kanjidb0200_0299.html">200-299 (O-KAI)</a></li>
-    <li><a href="kanjidb0300_0399.html">300-399 (KAI-KAN)</a></li>
-    <li><a href="kanjidb0400_0499.html">400-499 (KAN-KI)</a></li>
-    <li><a href="kanjidb0500_0599.html">500-599 (KI-KYO)</a></li>
-    <li><a href="kanjidb0600_0699.html">600-699 (KYO-KEI)</a></li>
-    <li><a href="kanjidb0700_0799.html">700-799 (KEY-KO)</a></li>
-    <li><a href="kanjidb0800_0899.html">800-899 (KO-KŌ)</a></li>
-    <li><a href="kanjidb0900_0999.html">900-999 (KŌ-SAI)</a></li>
-    <li><a href="kanjidb1000_1099.html">1000-1099 (SAI-SHI)</a></li>
-    <li><a href="kanjidb1100_1199.html">1100-1199 (SHI-SHU)</a></li>
-    <li><a href="kanjidb1200_1299.html">1200-1299 (SHU-SHO)</a></li>
-    <li><a href="kanjidb1300_1399.html">1300-1399 (SHO-SHŌ)</a></li>
-    <li><a href="kanjidb1400_1499.html">1400-1499 (SHŌ-SU)</a></li>
-    <li><a href="kanjidb1500_1599.html">1500-1599 (SU-SEN)</a></li>
-    <li><a href="kanjidb1600_1699.html">1600-1699 (SEN-SOKU)</a></li>
-    <li><a href="kanjidb1700_1799.html">1700-1799 (SOKU-SON)</a></li>
-    <li><a href="kanjidb1800_1899.html">1800-1899 (SON-CHŌ)</a></li>
-    <li><a href="kanjidb1900_1999.html">1900-1999 (CHŌ-TEN)</a></li>
-    <li><a href="kanjidb2000_2099.html">2000-2099 (TEN-TOKU)</a></li>
-    <li><a href="kanjidb2100_2199.html">2100-2199 (TOKU-HA)</a></li>
-    <li><a href="kanjidb2200_2299.html">2200-2299 (HA-HAN)</a></li>
-    <li><a href="kanjidb2300_2399.html">2300-2399 (HAN-HIN)</a></li>
-    <li><a href="kanjidb2400_2499.html">2400-2499 (HIN-HEN)</a></li>
-    <li><a href="kanjidb2500_2599.html">2500-2599 (HIN-HON)</a></li>
-    <li><a href="kanjidb2600_2699.html">2600-2699 (HON-MON)</a></li>
-    <li><a href="kanjidb2700_2799.html">2700-2799 (MON-RAI)</a></li>
-    <li><a href="kanjidb2800_2899.html">2800-2899 (RAI-REI)</a></li>
-    <li><a href="kanjidb2900_2999.html">2900-2999 (REI-WAN)</a></li>
+    <li><a href="kanji/0001.html">1-99 (A-IN)</a></li>
+    <li><a href="kanji/0100.html">100-199 (IN-O)</a></li>
+    <li><a href="kanji/0200.html">200-299 (O-KAI)</a></li>
+    <li><a href="kanji/0300.html">300-399 (KAI-KAN)</a></li>
+    <li><a href="kanji/0400.html">400-499 (KAN-KI)</a></li>
+    <li><a href="kanji/0500.html">500-599 (KI-KYO)</a></li>
+    <li><a href="kanji/0600.html">600-699 (KYO-KEI)</a></li>
+    <li><a href="kanji/0700.html">700-799 (KEY-KO)</a></li>
+    <li><a href="kanji/0800.html">800-899 (KO-KŌ)</a></li>
+    <li><a href="kanji/0900.html">900-999 (KŌ-SAI)</a></li>
+    <li><a href="kanji/1000.html">1000-1099 (SAI-SHI)</a></li>
+    <li><a href="kanji/1100.html">1100-1199 (SHI-SHU)</a></li>
+    <li><a href="kanji/1200.html">1200-1299 (SHU-SHO)</a></li>
+    <li><a href="kanji/1300.html">1300-1399 (SHO-SHŌ)</a></li>
+    <li><a href="kanji/1400.html">1400-1499 (SHŌ-SU)</a></li>
+    <li><a href="kanji/1500.html">1500-1599 (SU-SEN)</a></li>
+    <li><a href="kanji/1600.html">1600-1699 (SEN-SOKU)</a></li>
+    <li><a href="kanji/1700.html">1700-1799 (SOKU-SON)</a></li>
+    <li><a href="kanji/1800.html">1800-1899 (SON-CHŌ)</a></li>
+    <li><a href="kanji/1900.html">1900-1999 (CHŌ-TEN)</a></li>
+    <li><a href="kanji/2000.html">2000-2099 (TEN-TOKU)</a></li>
+    <li><a href="kanji/2100.html">2100-2199 (TOKU-HA)</a></li>
+    <li><a href="kanji/2200.html">2200-2299 (HA-HAN)</a></li>
+    <li><a href="kanji/2300.html">2300-2399 (HAN-HIN)</a></li>
+    <li><a href="kanji/2400.html">2400-2499 (HIN-HEN)</a></li>
+    <li><a href="kanji/2500.html">2500-2599 (HIN-HON)</a></li>
+    <li><a href="kanji/2600.html">2600-2699 (HON-MON)</a></li>
+    <li><a href="kanji/2700.html">2700-2799 (MON-RAI)</a></li>
+    <li><a href="kanji/2800.html">2800-2899 (RAI-REI)</a></li>
+    <li><a href="kanji/2900.html">2900-2999 (REI-WAN)</a></li>
 </ul>
 <h2>Редко используемые кандзи и устаревшие формы</h2>
 <ul>
-    <li><a href="kanjidb3000_3099.html">3000-3099</a></li>
-    <li><a href="kanjidb3100_3199.html">3100-3199</a></li>
-    <li><a href="kanjidb3200_3299.html">3200-3299</a></li>
-    <li><a href="kanjidb3300_3399.html">3300-3399</a></li>
-    <li><a href="kanjidb3400_3499.html">3400-3499</a></li>
-    <li><a href="kanjidb3500_3599.html">3500-3599</a></li>
-    <li><a href="kanjidb3600_3699.html">3600-3699</a></li>
-    <li><a href="kanjidb3700_3799.html">3700-3799</a></li>
-    <li><a href="kanjidb3800_3899.html">3800-3899</a></li>
-    <li><a href="kanjidb3900_3999.html">3900-3999</a></li>
-    <li><a href="kanjidb4000_4099.html">4000-4099</a></li>
-    <li><a href="kanjidb4100_4199.html">4100-4199</a></li>
-    <li><a href="kanjidb4200_4299.html">4200-4299</a></li>
-    <li><a href="kanjidb4300_4399.html">4300-4399</a></li>
-    <li><a href="kanjidb4400_4499.html">4400-4499</a></li>
-    <li><a href="kanjidb4500_4599.html">4500-4599</a></li>
-    <li><a href="kanjidb4600_4699.html">4600-4699</a></li>
-    <li><a href="kanjidb4700_4799.html">4700-4799</a></li>
-    <li><a href="kanjidb4800_4899.html">4800-4899</a></li>
-    <li><a href="kanjidb4900_4999.html">4900-4999</a></li>
-    <li><a href="kanjidb5000_5099.html">5000-5099</a></li>
-    <li><a href="kanjidb5100_5199.html">5100-5199</a></li>
-    <li><a href="kanjidb5200_5299.html">5200-5299</a></li>
-    <li><a href="kanjidb5300_5399.html">5300-5399</a></li>
-    <li><a href="kanjidb5400_5499.html">5400-5499</a></li>
-    <li><a href="kanjidb5500_5599.html">5500-5599</a></li>
-    <li><a href="kanjidb5600_5699.html">5600-5699</a></li>
-    <li><a href="kanjidb5700_5799.html">5700-5799</a></li>
-    <li><a href="kanjidb5800_5899.html">5800-5899</a></li>
-    <li><a href="kanjidb5900_5999.html">5900-5999</a></li>
-    <li><a href="kanjidb6000_6099.html">6000-6099</a></li>
-    <li><a href="kanjidb6100_6199.html">6100-6199</a></li>
-    <li><a href="kanjidb6200_6299.html">6200-6299</a></li>
-    <li><a href="kanjidb6300_6355.html">6300-6355</a></li>
+    <li><a href="kanji/3000.html">3000-3099</a></li>
+    <li><a href="kanji/3100.html">3100-3199</a></li>
+    <li><a href="kanji/3200.html">3200-3299</a></li>
+    <li><a href="kanji/3300.html">3300-3399</a></li>
+    <li><a href="kanji/3400.html">3400-3499</a></li>
+    <li><a href="kanji/3500.html">3500-3599</a></li>
+    <li><a href="kanji/3600.html">3600-3699</a></li>
+    <li><a href="kanji/3700.html">3700-3799</a></li>
+    <li><a href="kanji/3800.html">3800-3899</a></li>
+    <li><a href="kanji/3900.html">3900-3999</a></li>
+    <li><a href="kanji/4000.html">4000-4099</a></li>
+    <li><a href="kanji/4100.html">4100-4199</a></li>
+    <li><a href="kanji/4200.html">4200-4299</a></li>
+    <li><a href="kanji/4300.html">4300-4399</a></li>
+    <li><a href="kanji/4400.html">4400-4499</a></li>
+    <li><a href="kanji/4500.html">4500-4599</a></li>
+    <li><a href="kanji/4600.html">4600-4699</a></li>
+    <li><a href="kanji/4700.html">4700-4799</a></li>
+    <li><a href="kanji/4800.html">4800-4899</a></li>
+    <li><a href="kanji/4900.html">4900-4999</a></li>
+    <li><a href="kanji/5000.html">5000-5099</a></li>
+    <li><a href="kanji/5100.html">5100-5199</a></li>
+    <li><a href="kanji/5200.html">5200-5299</a></li>
+    <li><a href="kanji/5300.html">5300-5399</a></li>
+    <li><a href="kanji/5400.html">5400-5499</a></li>
+    <li><a href="kanji/5500.html">5500-5599</a></li>
+    <li><a href="kanji/5600.html">5600-5699</a></li>
+    <li><a href="kanji/5700.html">5700-5799</a></li>
+    <li><a href="kanji/5800.html">5800-5899</a></li>
+    <li><a href="kanji/5900.html">5900-5999</a></li>
+    <li><a href="kanji/6000.html">6000-6099</a></li>
+    <li><a href="kanji/6100.html">6100-6199</a></li>
+    <li><a href="kanji/6200.html">6200-6299</a></li>
+    <li><a href="kanji/6300.html">6300-6355</a></li>
 </ul>
+<h1>Слова из словаря ЯРКСИ</h1>
+<table>
+    <tr>
+        <td><a href="words/a.html">A<span class="wordnum">(1972)</span></a></td>
+        <td><a href="words/i.html">I<span class="wordnum">(2306)</span></a></td>
+        <td><a href="words/u.html">U<span class="wordnum">(969)</span></a></td>
+        <td><a href="words/e.html">E<span class="wordnum">(883)</span></a></td>
+        <td><a href="words/o.html">O<span class="wordnum">(1542)</span></a></td>
+    </tr>
+    <tr>
+        <td><a href="words/ka.html">KA<span class="wordnum">(4278)</span></a></td>
+        <td><a href="words/ki.html">KI<span class="wordnum">(3305)</span></a></td>
+        <td><a href="words/ku.html">KU<span class="wordnum">(1248)</span></a></td>
+        <td><a href="words/ke.html">KE<span class="wordnum">(1629)</span></a></td>
+        <td><a href="words/ko.html">KO<span class="wordnum">(3086)</span></a></td>
+    </tr>
+    <tr>
+        <td><a href="words/sa.html">SA<span class="wordnum">(7671)</span></a></td>
+        <td><a href="words/shi.html">SHI<span class="wordnum">(7671)</span></a></td>
+        <td><a href="words/su.html">SU,SHU<span class="wordnum">(7671)</span></a></td>
+        <td><a href="words/se.html">SE<span class="wordnum">(7671)</span></a></td>
+        <td><a href="words/so.html">SO, SHO<span class="wordnum">(7671)</span></a></td>
+    </tr>
+    <tr>
+        <td><a href="words/ta.html">TA<span class="wordnum">(4278)</span></a></td>
+        <td><a href="words/chi.html">CHI<span class="wordnum">(3305)</span></a></td>
+        <td><a href="words/tsu.html">TSU<span class="wordnum">(1248)</span></a></td>
+        <td><a href="words/te.html">TE<span class="wordnum">(1629)</span></a></td>
+        <td><a href="words/to.html">TO<span class="wordnum">(3086)</span></a></td>
+    </tr>
+    <tr>
+        <td><a href="words/na.html">NA<span class="wordnum">(4278)</span></a></td>
+        <td><a href="words/ni.html">NI<span class="wordnum">(3305)</span></a></td>
+        <td><a href="words/nu.html">NU<span class="wordnum">(1248)</span></a></td>
+        <td><a href="words/ne.html">NE<span class="wordnum">(1629)</span></a></td>
+        <td><a href="words/no.html">NO<span class="wordnum">(3086)</span></a></td>
+    </tr>
+    <tr>
+        <td><a href="words/ha.html">HA<span class="wordnum">(4278)</span></a></td>
+        <td><a href="words/hi.html">HI<span class="wordnum">(3305)</span></a></td>
+        <td><a href="words/fu.html">FU<span class="wordnum">(1248)</span></a></td>
+        <td><a href="words/he.html">HE<span class="wordnum">(1629)</span></a></td>
+        <td><a href="words/ho.html">HO<span class="wordnum">(3086)</span></a></td>
+    </tr>
+    <tr>
+        <td><a href="words/ma.html">MA<span class="wordnum">(4278)</span></a></td>
+        <td><a href="words/mi.html">MI<span class="wordnum">(3305)</span></a></td>
+        <td><a href="words/mu.html">MU<span class="wordnum">(1248)</span></a></td>
+        <td><a href="words/me.html">ME<span class="wordnum">(1629)</span></a></td>
+        <td><a href="words/mo.html">MO<span class="wordnum">(3086)</span></a></td>
+    </tr>
+    <tr>
+        <td><a href="words/ya.html">YA<span class="wordnum">(4278)</span></a></td>
+        <td></td>
+        <td><a href="words/yu.html">YU<span class="wordnum">(1248)</span></a></td>
+        <td></td>
+        <td><a href="words/yo.html">YO<span class="wordnum">(3086)</span></a></td>
+    </tr>
+    <tr>
+        <td><a href="words/ra.html">RA<span class="wordnum">(4278)</span></a></td>
+        <td><a href="words/ri.html">RI<span class="wordnum">(3305)</span></a></td>
+        <td><a href="words/ru.html">RU<span class="wordnum">(1248)</span></a></td>
+        <td><a href="words/re.html">RE<span class="wordnum">(1629)</span></a></td>
+        <td><a href="words/ro.html">RO<span class="wordnum">(3086)</span></a></td>
+    </tr>
+    <tr>
+        <td><a href="words/wa.html">WA<span class="wordnum">(4278)</span></a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>WO</td>
+    </tr>    
+</table>
 </body>
 </html>
