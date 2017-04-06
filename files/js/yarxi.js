@@ -443,7 +443,34 @@ function ShowEntry(s)
 
 function onr(Nomer)
 {
-    onrx({N : Nomer});
+	if (false) {
+		onrx({N : Nomer}); // yarxi original code
+		return;
+	}
+	kanji_url = kanji_number_to_link(parseInt(Nomer));
+	window.location.href = URLPrefix + kanji_url;
+}
+
+function kanji_number_to_link(kanji_number)
+{
+	kanji_per_page = 100;
+	page_ratio = Math.floor(kanji_number / kanji_per_page);
+	if (page_ratio == 0) {
+		page_ratio = 1;
+	}
+	else {
+		page_ratio = page_ratio * kanji_per_page;
+	}
+	// 0001.html#k1, 0900.html#k999, ...
+	return pad(page_ratio, 4) + ".html#k" + kanji_number.toString();
+}
+
+function pad(num, size)
+{
+    var s = num.toString();
+    while (s.length < size) 
+		s = "0" + s;
+    return s;
 }
 
 function onrx(o)
