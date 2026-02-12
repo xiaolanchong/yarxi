@@ -452,6 +452,8 @@ body
 
 a.kanji {text-decoration:none;}
 
+span.kanji  {color:teal;}
+
 #thekanji a{text-decoration:none; color:#000000;}	
 #thekanji a img {border:0}
 

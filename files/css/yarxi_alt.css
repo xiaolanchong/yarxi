@@ -1,0 +1,19 @@
+
+<!-- alternative styles (for dark theme) -->
+
+span.kanji {
+	color: #ffc0c0;
+}
+
+span.ttrans {
+	color: #86e2eB;
+}
+
+td {
+	padding: 0em 0.2em;
+}
+
+td.tjtext {
+	text-wrap: nowrap;
+	font-size: larger;
+}
